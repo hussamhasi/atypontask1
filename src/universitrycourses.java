@@ -13,5 +13,8 @@ public class universitrycourses {
      void registration(String studentname){
          students.add(studentname);
      }
+    void drop(String studentName){
+         students.remove(studentName);
+    }
 
 }
